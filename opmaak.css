@@ -8,7 +8,7 @@ background-color: aquamarine;
 
 li {
 float: left;
-border-right:1px solid #bbb;
+border-right:1px solid black;
 }
 
 li a {
@@ -19,10 +19,6 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover:not(.active) {
+li a:hover {
 background-color: aquamarine;
-}
-.active {
-background-color: white;
 }

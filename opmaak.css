@@ -6,6 +6,10 @@ overflow: hidden;
 background-color: aquamarine;
 }
 
+body {
+background-image: url("Telefoonachtergrond.large");  
+}
+
 li {
 float: left;
 }

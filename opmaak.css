@@ -2,7 +2,6 @@ ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 20px;
 overflow: hidden;
 background-color: aquamarine;
 }
@@ -15,7 +14,7 @@ li a {
 display: ruby-base;
 color: black;
 text-align: center;
-padding: 14px 16px;
+padding: 20px 8px;
 text-decoration: none;
 }
 

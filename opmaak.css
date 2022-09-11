@@ -18,14 +18,10 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: lightskyblue;
-  }
-  
-  .active {
-    background-color: black;
-
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-background-color: aquamarine;
+li a:hover:not(.active) {
+background-color: orange;
+}
+.active {
+background-color: green;
 }

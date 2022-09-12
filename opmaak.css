@@ -1,3 +1,4 @@
+
 ul {
 list-style-type: none;
 margin: 0;
@@ -19,10 +20,12 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: aqua;
+li a:hover {
+    background-color: black;
   }
   
-  .active {
-    background-color: #04AA6D;
-  }
+
+
+
+
+

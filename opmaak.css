@@ -19,6 +19,10 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-li a:hover {
-background-color: aqua;
-}
+li a:hover:not(.active) {
+    background-color: aqua;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }

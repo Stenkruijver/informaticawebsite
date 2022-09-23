@@ -21,12 +21,9 @@ text-decoration: none;
 }
 
 li a:hover {
-    background-color: black;
+    background-color: aqua;
   }
 
-  .active {
- background-color: green;
-  }
   
 
 

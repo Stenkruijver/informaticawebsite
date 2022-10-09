@@ -11,7 +11,7 @@ li {
     border-right:1px solid black;
 }
 
-li a {
+li a, .dropbtn {
     display: ruby-base;
     color: black;
     text-align: center;
@@ -19,22 +19,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(157, 253, 253);
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
   li.dropdown {
     display: inline-block;
   }

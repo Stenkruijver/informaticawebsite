@@ -23,11 +23,11 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(157, 253, 253);
 }
 
-  li.dropdown {
+  li.dropdown, li.third-level-menu {
     display: inline-block;
   }
   
-  .dropdown-content, .third-level-menu {
+  .dropdown-content, .third-level-menu-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -36,7 +36,7 @@ li a:hover, .dropdown:hover .dropbtn {
     z-index: 1;
   }
   
-  .dropdown-content a, .third-level-menu a {
+  .dropdown-content a, .third-level-menu-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -50,8 +50,8 @@ li a:hover, .dropdown:hover .dropbtn {
     display: block;
   }
 
-  .third-level-menu a:hover {background-color: aqua;}
+  .third-level-menu-content a:hover {background-color: aqua;}
 
-  .third-level-menu:hover .third-level-menu {
+  .third-level-menu-content:hover .third-level-menu-content {
     display: block;
   }

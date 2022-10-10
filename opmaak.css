@@ -19,7 +19,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover, .top-level-menu a:hover {
+li a:hover {
     background-color: rgb(157, 253, 253);
 }
 
@@ -27,52 +27,12 @@ li a:hover, .top-level-menu a:hover {
     display: inline-block;
   }
   
-.third-level-menu, .second-level-menu
-{
-    position: absolute;
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
     top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.third-level-menu > li
-{
-    height: 30px;
-    background: aqua;
-}
-
-.third-level-menu > li:hover, .second-level-menu > li:hover, .top-level-menu > li:hover  { background: aqua; }
-
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-    background: aqua;
-}
-
-.top-level-menu > li
-{
-    position: relative;
-    float: left;
-    height: 30px;
-    width: 150px;
-    background: aqua;
-}
-
-.top-level-menu li:hover > ul
-{
-    display: inline;
-}
-
-.top-level-menu a /* Apply to all links inside the multi-level menu */
-{
-    color: black;
-    text-decoration: none;
-    padding: 0 0 0 10px;
-    display: block;
-    line-height: 30px;
-}
+    left: 100%;
+    margin-top: -1px;
+  }

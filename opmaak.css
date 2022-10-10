@@ -51,7 +51,7 @@ li a:hover, .top-level-menu a:hover {
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: aqua;
 }
 
 .top-level-menu > li
@@ -60,7 +60,7 @@ li a:hover, .top-level-menu a:hover {
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    background: aqua;
 }
 
 .top-level-menu li:hover > ul

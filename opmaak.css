@@ -42,7 +42,7 @@ li a:hover, .top-level-menu a:hover {
 .third-level-menu > li
 {
     height: 30px;
-    background: #999999;
+    background: aqua;
 }
 
 .third-level-menu > li:hover, .second-level-menu > li:hover, .top-level-menu > li:hover  { background: aqua; }

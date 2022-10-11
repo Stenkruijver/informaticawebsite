@@ -75,9 +75,9 @@ li a:hover {
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    background: aqua;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: rgb(157, 253, 253); }
 
 .top-level-menu li:hover > ul
 {

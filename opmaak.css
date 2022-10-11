@@ -90,8 +90,7 @@ li a:hover {
 
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
-    font: bold 14px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: white;
     text-decoration: none;
     padding: 0 0 0 10px;
 
@@ -99,4 +98,4 @@ li a:hover {
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #000000; }
+.top-level-menu a:hover { color: black; }

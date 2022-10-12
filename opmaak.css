@@ -13,7 +13,7 @@
 .third-level-menu > li
 {
     height: 30px;
-    background: rgb(157, 253, 253);
+    background: aquamarine;
 }
 .third-level-menu > li:hover { background: aqua; }
 
@@ -33,7 +33,7 @@
 {
     position: relative;
     height: 30px;
-    background: rgb(157, 253, 253);
+    background: aquamarine;
 }
 .second-level-menu > li:hover { background: aqua; }
 

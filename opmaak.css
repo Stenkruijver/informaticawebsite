@@ -37,6 +37,19 @@
 }
 .second-level-menu > li:hover { background: aqua; }
 
+.submenu {
+position: absolute;
+left: 100%;
+width: 140px;
+top: 0;
+background-color: white;
+display: none;
+
+}
+
+.submenu > li:hover {background: aqua;}
+
+
 .top-level-menu
 {
     list-style: none;

@@ -53,6 +53,10 @@ display: none;
 display: block;
 }
 
+.top-level-menu li:hover > .second-level-menu {
+    display: block;
+}
+
 .top-level-menu
 {
     list-style: none;

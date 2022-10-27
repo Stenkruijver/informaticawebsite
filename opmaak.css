@@ -49,6 +49,9 @@ display: none;
 
 .submenu > li:hover {background: aqua;}
 
+.second-level-menu li:hover > .submenu {
+display: block;
+}
 
 .top-level-menu
 {

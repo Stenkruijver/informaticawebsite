@@ -11,7 +11,7 @@ position: relative;
 .menu a {
 text-decoration: none;
 Color: black;
-display: ruby-base;
+display: block;
 padding: 14px 16px;
 text-align: center;
 }

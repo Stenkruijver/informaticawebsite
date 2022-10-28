@@ -11,3 +11,8 @@ display: ruby-base;
 padding: 14px 16px;
 text-align: center;
 }
+
+.menu a:hover {
+background-color: aqua;
+color: black
+}

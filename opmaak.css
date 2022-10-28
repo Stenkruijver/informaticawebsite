@@ -4,6 +4,10 @@
 display: inline-block
 }
 
+.menu li {
+position: relative;
+}
+
 .menu a {
 text-decoration: none;
 Color: black;
@@ -15,4 +19,34 @@ text-align: center;
 .menu a:hover {
 background-color: aqua;
 color: black
+}
+
+/* Submenu Level 1 styles */
+
+.submenu { 
+Position: absolute;
+background-color: white;
+width: 140px;
+left: 0;
+display: none;
+}
+
+/* Submenu Level 2 styles */
+
+.submenu2 {
+Position: absolute;
+background-color: white;
+width: 140px;
+left: 100%;
+display: none;
+}
+
+/* show menu on hover */
+
+.menu li:hover > .submenu {
+display: block;
+}
+
+.submenu li:hover > .submenu2 {
+display:block;
 }

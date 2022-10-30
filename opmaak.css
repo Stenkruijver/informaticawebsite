@@ -47,6 +47,7 @@
 .top-level-menu > li
 {
     position: relative;
+    border-right:1px solid black;
     float: left;
     height: 30px;
     width: 150px;
@@ -69,7 +70,7 @@
     padding: 0 0 0 10px;
 
     /* Make the link cover the entire list item-container */
-    display: block;
+    display: ruby-base;
     line-height: 30px;
 }
 .top-level-menu a:hover { color: black; }

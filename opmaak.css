@@ -1,4 +1,4 @@
-.third-level-menu
+.submenu
 {
     position: absolute;
     top: 0;
@@ -10,12 +10,12 @@
     display: none;
 }
 
-.third-level-menu > li
+.submenu > li
 {
     height: 30px;
     background: white;
 }
-.third-level-menu > li:hover { background: aqua; }
+.submenu > li:hover { background: aqua; }
 
 .second-level-menu
 {

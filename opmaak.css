@@ -19,29 +19,31 @@
 }
 .top-level-menu > li:hover { background: rgb(207, 253, 253); }
 
+/* On hover, show het menu van het volgende level */
+
 .top-level-menu li:hover > ul
 {
-    /* On hover, display the next level's menu */
     display: inline;
 }
 
 /* Menu Link Styles */
 
-.top-level-menu a /* Apply to all links inside the multi-level menu */
+.top-level-menu a /* Alles wat hierin staat wordt toegepast op alle links binnen het dropdownmenu */
 {
     color: black;
     text-decoration: none;
     padding: 0 0 0 10px;
-
-    /* Make the link cover the entire list item-container */
     display: ruby-base;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: black; }
+
+/* On hover blijft de tekst van de links zwart*/
+
+.top-level-menu a:hover { color: black; } 
 
 /* Dropdownmenu level 2 styles*/
 
-    .second-level-menu
+.second-level-menu
     {
         position: absolute;
         top: 30px;
@@ -53,13 +55,16 @@
         display: none;
     }
     
-    .second-level-menu > li
+.second-level-menu > li
     {
         position: relative;
         height: 30px;
         background: white;
     }
-    .second-level-menu > li:hover { background: aqua; }
+
+/* De witte achtergrond verandert bij elk level naar aqua on hover */
+
+.second-level-menu > li:hover { background: aqua; }
 
 /* Submenu level 1 styles*/
 

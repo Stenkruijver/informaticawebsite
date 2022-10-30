@@ -69,6 +69,7 @@ display: block
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .top-level-menu > li

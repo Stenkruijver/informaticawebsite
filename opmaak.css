@@ -1,88 +1,77 @@
-html, body {
-    height: 100%;
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
 
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+.third-level-menu > li
+{
+    height: 30px;
+    background: #999999;
+}
+.third-level-menu > li:hover { background: #CCCCCC; }
 
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
 
-ul {
-list-style: none;
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-body {
-line-height: 1.6;
-background-color: white;
-color: black;
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+    background: #999999;
+}
+.top-level-menu > li:hover { background: #CCCCCC; }
 
-
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
 }
 
-/* Nav styles */
 
-header {
-background-color: aqua;
-padding: 2rem 0;
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
 }
-
-nav {
-max-width: 1100px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-.menu > li, .menu > a {
-display: inline-block
-}
-
-.menu li {
-position: relative;
-}
-
-.menu a {
-text-decoration: none;
-Color: black;
-display: block;
-padding: 14px 16px;
-text-align: center;
-}
-
-.menu a:hover {
-background-color: aqua;
-color: black
-}
-
-/* Submenu Level 1 styles */
-
-.submenu { 
-Position: absolute;
-background-color: white;
-width: 140px;
-left: 0;
-display: none;
-}
-
-/* Submenu Level 2 styles */
-
-.submenu2 {
-Position: absolute;
-background-color: white;
-width: 140px;
-left: 100%;
-display: none;
-}
-
-/* show menu on hover */
-
-.menu li:hover > .submenu {
-display: block;
-}
-
-.submenu li:hover > .submenu2 {
-display:block;
-}
+.top-level-menu a:hover { color: #000000; }

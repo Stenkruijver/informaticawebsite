@@ -1,3 +1,26 @@
+.submenu2
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.submenu2 > li
+{
+    height: 30px;
+    background: white;
+}
+.submenu2 > li:hover { background: aqua; }
+
+.submenu li:hover > .submenu2 {
+display: block;
+}
+
 .submenu
 {
     position: absolute;
@@ -16,6 +39,11 @@
     background: white;
 }
 .submenu > li:hover { background: aqua; }
+
+.second-level-menu li:hover > .submenu {
+display: block 
+}
+
 
 .second-level-menu
 {

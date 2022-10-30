@@ -108,6 +108,27 @@
 }
 .submenu2 > li:hover { background: aqua; }
 
+/* Submenu level 3 styles*/
+
+.submenu3
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.submenu3 > li
+{
+    height: 30px;
+    background: white;
+}
+.submenu3 > li:hover { background: aqua; }
+
 /* Show submenu on hover*/
 
 .second-level-menu li:hover > .submenu {
@@ -115,5 +136,9 @@
     }
 
 .submenu li:hover > .submenu2 {
+    display: block;
+}
+
+.submenu2 li:hover > .submenu3 {
     display: block;
 }

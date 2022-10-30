@@ -1,68 +1,4 @@
-.submenu2
-{
-    position: absolute;
-    top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.submenu2 > li
-{
-    height: 30px;
-    background: white;
-}
-.submenu2 > li:hover { background: aqua; }
-
-.submenu li:hover > .submenu2 {
-display: block;
-}
-
-.submenu
-{
-    position: absolute;
-    top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.submenu > li
-{
-    height: 30px;
-    background: white;
-}
-.submenu > li:hover { background: aqua; }
-
-.second-level-menu li:hover > .submenu {
-display: block 
-}
-
-.second-level-menu
-{
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-    background: white;
-}
-.second-level-menu > li:hover { background: aqua; }
+/* Dropdownmenu level 1 styles*/
 
 .top-level-menu
 {
@@ -102,3 +38,77 @@ display: block
     line-height: 30px;
 }
 .top-level-menu a:hover { color: black; }
+
+/* Dropdownmenu level 2 styles*/
+
+    .second-level-menu
+    {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 150px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+    
+    .second-level-menu > li
+    {
+        position: relative;
+        height: 30px;
+        background: white;
+    }
+    .second-level-menu > li:hover { background: aqua; }
+
+/* Submenu level 1 styles*/
+
+.submenu
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.submenu > li
+{
+    height: 30px;
+    background: white;
+}
+.submenu > li:hover { background: aqua; }
+
+/* Submenu level 2 styles*/
+
+.submenu2
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.submenu2 > li
+{
+    height: 30px;
+    background: white;
+}
+.submenu2 > li:hover { background: aqua; }
+
+/* Show submenu on hover*/
+
+.second-level-menu li:hover > .submenu {
+    display: block;
+    }
+
+.submenu li:hover > .submenu2 {
+    display: block;
+}

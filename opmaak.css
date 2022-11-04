@@ -156,3 +156,7 @@ footer {
     padding: 10px;
     height: 79px;
 }
+
+div {
+   display:block;
+}

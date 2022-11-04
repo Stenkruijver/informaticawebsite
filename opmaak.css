@@ -146,3 +146,17 @@
 div {
    display:block;
 }
+
+/* Footer styles */
+
+footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    color: black;
+    position: fixed; 
+    bottom: 0;
+    border-top: 1px solid black;
+    width: 580px;
+    padding: 10px;
+    height: 79px;
+}

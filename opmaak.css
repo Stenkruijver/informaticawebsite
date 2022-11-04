@@ -24,7 +24,6 @@
 .top-level-menu li:hover > ul
 {
     display: inline;
-    overflow: hidden;
 }
 
 /* Menu Link Styles */

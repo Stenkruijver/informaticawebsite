@@ -169,4 +169,5 @@ div {
     background-color: darksalmon;
     color: black;
     text-align: center;
+    overflow: hidden;
  }

@@ -120,6 +120,7 @@
     padding: 0;
     margin: 0;
     display: none;
+    z-index: 1;
 }
 
 .submenu3 > li
@@ -181,7 +182,3 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-
-video {
-  z-index: -1;  
-}

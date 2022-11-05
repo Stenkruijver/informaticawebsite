@@ -182,8 +182,12 @@ div.gallery {
     text-align: center;
   }
 
-.link {
+a:link {
     color: dodgerblue
+}
+
+a:visited {
+    color: dodgerblue ;
 }
 
 body {

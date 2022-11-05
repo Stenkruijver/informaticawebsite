@@ -1,49 +1,52 @@
 /* Dropdownmenu level 1 styles*/
 
-.top-level-menu
+.top-level-menu /* Alles binnen dit class element krijgt de specificaties die hieronder staan aan te geven*/
 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    list-style: none; /* Haalt de default setting van het menu weg, waardoor er een navigatiebalk ontstaat*/ 
+    padding: 0; /* Door padding 0 komt mijn menu helemaal bovenaan de pagina te staan*/
+    margin: 0; /* Hoe dik mijn menu is*/
+    text-align: center; /* De tekst staat in het midden van het blok */
 }
 
-.top-level-menu > li
+.top-level-menu > li /* Li betekent de list items die onder een bepaald class element vallen*/
 {
-    position: relative;
-    border-right:1px solid black;
-    float: left;
-    height: 30px;
-    width: 150px;
-    background: aqua;
+    position: relative; /* Position zorgt ervoor dat de list items op een bepaalde positie komen te staan*/
+    border-right:1px solid black; /* zorgt voor borders tussen de verschillende list items*/
+    float: left; /* Alle list items beginnen aan de linkerkant*/
+    height: 30px; /* Hoogte van mijn menu*/
+    width: 150px; /* Breedte van mijn menu*/
+    background: aqua; /* Achtergrond kleur van mijn menu*/
 }
-.top-level-menu > li:hover { background: rgb(207, 253, 253); }
+
+/* Als je met je muis over de list items die onder deze class tag vallen hovert krijgen de list items deze kleur*/
+
+.top-level-menu > li:hover { background: rgb(207, 253, 253); } 
 
 /* On hover, show het menu van het volgende level */
 
 .top-level-menu li:hover > ul
 {
-    display: inline;
+    display: inline; /* Alle list items staan achter elkaar in het menu*/
 }
 
 /* Menu Link Styles */
 
 .top-level-menu a /* Alles wat hierin staat wordt toegepast op alle links binnen het dropdownmenu */
 {
-    color: black;
-    text-decoration: none;
+    color: black; /* De kleur van de tekst van de list items is zwart*/
+    text-decoration: none; /* Ik heb geen bepaald lettertype gebruikt voor mijn website*/
     padding: 0 0 0 10px;
-    display: ruby-base;
+    display: ruby-base; /* De vorm van het menu, ruby is een soort van smal blok rondom de list items*/
     line-height: 30px;
 }
 
 /* On hover blijft de tekst van de links zwart*/
 
-.top-level-menu a:hover { color: black; } 
+.top-level-menu a:hover { color: black; } /* De kleur van de tekst van de list items blijft zwart als je er met je muis overheen gaat*/
 
 /* Dropdownmenu level 2 styles*/
 
-.second-level-menu
+.second-level-menu /* Alles binnen dit class element krijgt de specificaties die hieronder staan aan te geven*/
     {
         position: absolute;
         top: 30px;
@@ -52,10 +55,10 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        display: none;
+        display: none; /* Het volgende menu wordt niet laten zien*/
     }
     
-.second-level-menu > li
+.second-level-menu > li /* Li betekent de list items die onder een bepaald class element vallen*/
     {
         position: relative;
         height: 30px;
@@ -64,11 +67,11 @@
 
 /* De witte achtergrond verandert bij elk level naar aqua on hover */
 
-.second-level-menu > li:hover { background: aqua; }
+.second-level-menu > li:hover { background: aqua; } 
 
 /* Submenu level 1 styles*/
 
-.submenu
+.submenu /* Alles binnen dit class element krijgt de specificaties die hieronder staan aan te geven*/
 {
     position: absolute;
     top: 0;
@@ -77,10 +80,10 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: none;
+    display: none; /* Het volgende menu wordt niet laten zien*/
 }
 
-.submenu > li
+.submenu > li /* Li betekent de list items die onder een bepaald class element vallen*/
 {
     height: 30px;
     background: white;
@@ -89,7 +92,7 @@
 
 /* Submenu level 2 styles*/
 
-.submenu2
+.submenu2 /* Alles binnen dit class element krijgt de specificaties die hieronder staan aan te geven*/
 {
     position: absolute;
     top: 0;
@@ -98,10 +101,10 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: none;
+    display: none; /* Het volgende menu wordt niet laten zien*/
 }
 
-.submenu2 > li
+.submenu2 > li /* Li betekent de list items die onder een bepaald class element vallen*/
 {
     height: 30px;
     background: white;
@@ -110,19 +113,19 @@
 
 /* Submenu level 3 styles*/
 
-.submenu3
+.submenu3 /* Alles binnen dit class element krijgt de specificaties die hieronder staan aan te geven*/
 {
     position: absolute;
-    top: 0;
-    right: -150px;
+    top: 0; /* Het submen begint bovenaan*/
+    right: -150px; /* Het submenu verschijnt aan de rechterkant als je eroverheen beweegt met je muis*/
     width: 150px;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: none;
+    display: none; /* Het volgende menu wordt niet laten zien*/
 }
 
-.submenu3 > li
+.submenu3 > li /* Li betekent de list items die onder een bepaald class element vallen*/
 {
     height: 30px;
     background: white;
@@ -132,28 +135,28 @@
 /* Show submenu on hover*/
 
 .second-level-menu li:hover > .submenu {
-    display: block;
+    display: block; /* Het volgende menu wordt laten zien als je er met je muis overheen gaat*/
     }
 
 .submenu li:hover > .submenu2 {
-    display: block;
+    display: block; /* Het volgende menu wordt laten zien als je er met je muis overheen gaat*/
 }
 
 .submenu2 li:hover > .submenu3 {
-    display: block;
+    display: block; /* Het volgende menu wordt laten zien als je er met je muis overheen gaat*/
 }
 
 div {
-   display:block;
+   display: block; /* Alle div items worden vastgezet als block element*/
 }
 
 /* Footer styles */
 
 .footer {
-    text-align: center;
-    background-color: darksalmon;
+    text-align: center; /* De text binnenin de footer staat in het midden van de footer*/
+    background-color: darksalmon; /* Kleur van de footer*/
     color: black;
-    position: fixed; 
+    position: fixed; /* Footer blijft onderaan de pagina staan*/
     bottom: 0;
     border-top: 1px solid black;
     width: 580px;
@@ -163,13 +166,13 @@ div {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+    border: 1px solid #ccc; /* De kleur van de lijnen om de foto*/
+    float: left; /* De afbeeldingen staan aan de linkerkant van de pagina*/
     width: 180px;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #777; /* De kleur van de border veranderd als je eroverheen gaat met je muis*/
   }
   
   div.gallery img {
@@ -179,8 +182,9 @@ div.gallery {
   
   div.desc {
     padding: 15px;
-    text-align: center;
+    text-align: center; /* Alle tekst onder de afbeelding staat in het midden*/
   }
+
 .phone {
     margin: auto;
     width: 60%;

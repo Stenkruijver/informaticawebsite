@@ -9,25 +9,25 @@
 <!--dit is een dubbel dropdownmenu met twee levels en twee submenu's-->
 
 <ul class="top-level-menu"> <!--het ul element maakt een lijst aan met list items (li)-->
-    <li><a href="/index.html">Home</a></li> <!--De a tag maakt de link naar een pagina aan en de href tag zegt waar de website gevonden moet worden-->
-    <li><a href="/html/3lagenmodel.html">3lagenmodel</a>
+    <li><a href="index.html">Home</a></li> <!--De a tag maakt de link naar een pagina aan en de href tag zegt waar de website gevonden moet worden-->
+    <li><a href="3lagenmodel.html">3lagenmodel</a>
         <ul class="second-level-menu">
-            <li><a href="/html/Logischelaag.html">Logische laag</a>
+            <li><a href="Logischelaag.html">Logische laag</a>
                 <ul class="submenu"> <!--het class element zorgt ervoor dat alle links die eronder vallen in die class worden toegevoegd-->
-                <li><a href="/html/operatingsystem.html">Operating system</a></li>
+                <li><a href="operatingsystem.html">Operating system</a></li>
                 </ul>
             </li> 
-            <li><a href="/html/Toepassingslaag.html">Toepassingslaag</a>
+            <li><a href="Toepassingslaag.html">Toepassingslaag</a>
                 <ul class="submenu2">
-                <li><a href="/html/apps.html">Apps</a></li>
+                <li><a href="apps.html">Apps</a></li>
                 </ul>
             </li>
-            <li><a href="/html/Fysiekelaag.html">Fysieke laag</a>
+            <li><a href="Fysiekelaag.html">Fysieke laag</a>
                 <ul class="submenu3">
-                <li><a href="/html/processor.html">Processor</a></li>
-                <li><a href="/html/geheugen.html">Geheugen</a></li>
-                <li><a href="/html/randapparatuur.html">Randapparatuur</a></li>
-                <li><a href="/html/moederbord.html">Moederbord</a></li>
+                <li><a href="processor.html">Processor</a></li>
+                <li><a href="geheugen.html">Geheugen</a></li>
+                <li><a href="randapparatuur.html">Randapparatuur</a></li>
+                <li><a href="moederbord.html">Moederbord</a></li>
             </ul>
         </li>
    </ul>
@@ -36,9 +36,13 @@
 
 <!--Voor de tekst maak ik gebruik van css om de kleur van de titels aan te passen --> 
 
-<br>
+<br> <!-- De br tag zorgt ervoor dat de tekst onder het dropdownmenu komt te staan-->
 
-<div><h2 style="color:black;">Processor</h2></div>
+<!-- Style verzorgt de kleur van de tekst-->
+
+<div>
+    <h2 style="color:black;">Processor</h2> <!--h2 geeft de grootte van de letters aan. H2 is groter dan h3-->
+</div> <!--De div tag zet een (block) element vast-->
 
 <p style="color:black;"> Een processor, ook wel CPU (Central Processing Unit) genoemd, 
 is het hart van een computer of smartphone. 
@@ -49,15 +53,17 @@ John von Neumann heeft uiteindelijk de CPU verandert door de CPU te laten samenw
 
 <p style="color:black;"> Bekijk de video hieronder om meer informatie te krijgen over de Von Neumann-architectuur:</p>
 
+<!--Het video element voegt een video toe aan de website, controls zorgt voor pauze en stop knoppen in de video.
+Muted zorgt ervoor dat de video muted is als hij begint met spelen-->
+
 <video width="400" controls muted>
-    <source src="https://www.youtube.com/watch?v=SbqXqQ-2ixs.ogg" type="video/ogg">
+    <source src="https://www.youtube.com/watch?v=SbqXqQ-2ixs.ogg" type="video/ogg"> <!-- Source laat weten waar de video vandaan komt-->
   </video>
 
   <p style="color:black;"> Als de video niet werkt kan je hieronder op de link klikken om naar de video te gaan:</p>
 
-  <div class="link"> 
 <p><a href="https://www.youtube.com/watch?v=SbqXqQ-2ixs">https://www.youtube.com/watch?v=SbqXqQ-2ixs</a></p>
-</div>
+
 
 <h2 style="color:black;">Kloksnelheid</h2>
 
@@ -69,7 +75,9 @@ De kloksnelheid is een van de belangrijkste factoren voor de snelheid van een co
 De kloksnelheid van mijn telefoon (Samsung S20 FE) is 2840 MHz. 
 Dit betekent dat de processor van mijn telefoon 2 840 000 000 bewerkingen per seconde uitvoert.</p>
 
-<a href="https://www.seniorweb.nl/computerwoordenboek/k/kloksnelheid">
+<!-- Met src kan de afbeeldingen gevonden worden, alt laat je een beschrijving van de afbeelding geven en width en height passen de grootte van de afbeelding aan-->
+
+<a href="https://www.seniorweb.nl/computerwoordenboek/k/kloksnelheid"> <!--het href element zorgt ervoor dat je op de afbeelding kan klikken om bij een website te komen-->
     <img src="/afbeeldingen/kloksnelheid.jpg" alt= "Kloksnelheid" width= "500" height="300">
     </a>
 

@@ -9,25 +9,25 @@
 <!--dit is een dubbel dropdownmenu met twee levels en twee submenu's-->
 
 <ul class="top-level-menu"> <!--het ul element maakt een lijst aan met list items (li)-->
-  <li><a href="/index.html">Home</a></li> <!--De a tag maakt de link naar een pagina aan en de href tag zegt waar de website gevonden moet worden-->
-  <li><a href="/html/3lagenmodel.html">3lagenmodel</a>
+  <li><a href="index.html">Home</a></li> <!--De a tag maakt de link naar een pagina aan en de href tag zegt waar de website gevonden moet worden-->
+  <li><a href="3lagenmodel.html">3lagenmodel</a>
       <ul class="second-level-menu">
-          <li><a href="/html/Logischelaag.html">Logische laag</a>
+          <li><a href="Logischelaag.html">Logische laag</a>
               <ul class="submenu"> <!--het class element zorgt ervoor dat alle links die eronder vallen in die class worden toegevoegd-->
-              <li><a href="/html/operatingsystem.html">Operating system</a></li>
+              <li><a href="operatingsystem.html">Operating system</a></li>
               </ul>
           </li> 
-          <li><a href="/html/Toepassingslaag.html">Toepassingslaag</a>
+          <li><a href="Toepassingslaag.html">Toepassingslaag</a>
               <ul class="submenu2">
-              <li><a href="/html/apps.html">Apps</a></li>
+              <li><a href="apps.html">Apps</a></li>
               </ul>
           </li>
-          <li><a href="/html/Fysiekelaag.html">Fysieke laag</a>
+          <li><a href="Fysiekelaag.html">Fysieke laag</a>
               <ul class="submenu3">
-              <li><a href="/html/processor.html">Processor</a></li>
-              <li><a href="/html/geheugen.html">Geheugen</a></li>
-              <li><a href="/html/randapparatuur.html">Randapparatuur</a></li>
-              <li><a href="/html/moederbord.html">Moederbord</a></li>
+              <li><a href="processor.html">Processor</a></li>
+              <li><a href="geheugen.html">Geheugen</a></li>
+              <li><a href="randapparatuur.html">Randapparatuur</a></li>
+              <li><a href="moederbord.html">Moederbord</a></li>
           </ul>
       </li>
  </ul>
@@ -36,14 +36,21 @@
 
 <!--Voor de tekst maak ik gebruik van css om de kleur van de titels aan te passen --> 
 
-<br>
+<br> <!-- De br tag zorgt ervoor dat de tekst onder het dropdownmenu komt te staan-->
 
-<div><h2 style="color:black;">Geheugen</h2></div>
+<!-- Style verzorgt de kleur van de tekst-->
 
-<img src="/afbeeldingen/types-of-computer-memory.jpg" alt= "Types of computer memory" width= "500" height="300">
+<div>
+  <h2 style="color:black;">Geheugen</h2> <!--h2 geeft de grootte van de letters aan. H2 is groter dan h3-->
+</div> <!--De div tag zet een (block) element vast-->
+
+<!-- Met src kan de afbeeldingen gevonden worden, alt laat je een beschrijving van de afbeelding geven en width en height passen de grootte van de afbeelding aan-->
+
+<img src="/afbeeldingen/types-of-computer-memory.jpg" alt= "Types of computer memory" width= "500" height="300"> 
 
 <h2 style="color:black;">RAM</h2>
 
+<!--p staat voor paragraaf en zorgt ervoor dat je tekst aan je website kan toevoegen-->
 <p style="color:black;"> De afkorting RAM staat voor Random Access Memory en is het kortetermijngeheugen van de computer. 
 Met het Ram-geheugen worden alle gegevens opgeslagen zoals het verplaatsen van de muis.
 Daarnaast is het Ram-geheugen erg toegankelijk in vergelijking met de harde schijf.
@@ -60,7 +67,7 @@ Het DRAM-geheugen maakt gebruik van condensatoren om gegevens in op te slaan.
 Het DRAM-geheugen laat langzaam energie los om geheugen te vernieuwen. 
 Als de stroom uit wordt gezet worden alle gegevens uit het RAM-geheugen verwijderd. </p>
 
-<a href="https://www.avg.com/nl/signal/what-is-ram">
+<a href="https://www.avg.com/nl/signal/what-is-ram"> <!--het href element zorgt ervoor dat je op de afbeelding kan klikken om bij een website te komen-->
   <img src="/afbeeldingen/SRAM-vs-DRAM.jpg" alt= "Sram vs Dram" width= "500" height="300">
   </a>
 
@@ -68,7 +75,9 @@ Als de stroom uit wordt gezet worden alle gegevens uit het RAM-geheugen verwijde
 
 <p style="color:black;"> Het ROM-geheugen staat voor Read Only Memory. 
 De ROM bewaart een bepaald programma, ook als het apparaat uit staat. 
-In tegenstelling tot het RAM-geheugen is de ROM niet zo snel en wordt vaak dus ook het RAM-geheugen gebruikt. 
+In tegenstelling tot het RAM-geheugen is de ROM niet zo snel en wordt vaak dus ook het RAM-geheugen gebruikt.
+
+<br>
 
 <a href="https://nl.wikipedia.org/wiki/Read-only_memory">
   <img src="/afbeeldingen/Rom.jpg" alt= "Read Only Memory" width= "500" height="300">
@@ -96,12 +105,27 @@ Een voorbeeld van een geheugenchip is de videokaart.
 Er zijn veel verschillende soorten geheugenchips, maar de 4 belangrijkste zijn het werkgeheugen, het cachegeheugen, het systeemgeheugen en het CMOS-geheugen. </p>
 
 <a href="https://sites.google.com/site/infcomputersystemen/soorten-geheugen/intern-geheugen">
-  <img src="/afbeeldingen/interngeheugen.jpg" alt= "Intern geheugen" width= "500" height="300">
+  <img src="/afbeeldingen/interngeheugen.jpg" alt= "Intern geheugen" width= "500" height="400">
   </a>
 
 <h2 style="color:black;">Extern geheugen</h2>
 
 <p style="color:black;"> Er zijn verschillende soorten extern geheugen, zoals de magnetische- en optische opslag en het flashgeheugen. </p>
+
+<h3 style="color:dodgerblue;">Flashgeheugen</h3>
+
+<p style="color:black;">Flashgeheugen kan heel snel bestanden toevoegen en verwijderen. 
+De meest bekende vormen van flashgeheugen zijn de geheugenkaart, de USB-stick en de SSD. 
+Geheugenkaarten worden in verschillende soorten draagbare media gebruikt zoals de smartphone. 
+USB-sticks worden gebruikt om data van de ene naar de andere computer te verplaatsen. 
+SSD staat voor Solid State Drive en is de opvolger van de harde schijf. 
+SSD heeft een snellere toegangstijd, een hogere lees- en schrijfsnelheid en gebruikt geen beweegbare onderdelen meer, wat wel het geval is bij de harde schijf. 
+Computers bevatten vaak een harde schijf en een SSD. 
+Flashgeheugen bestaat uit verschillende flashcellen en werkt volledig elektrisch. </p>
+
+<a href="https://sites.google.com/site/infcomputersystemen/soorten-geheugen/extern-geheugen/flashgeheugen">
+  <img src="/afbeeldingen/ssd.jpg" alt= " Verschil Solid State Drive en harde schijf" width= "500" height="300">
+  </a>
 
 <h3 style="color:dodgerblue;">Magnetische opslag</h3>
 
@@ -126,8 +150,10 @@ Bij de cd, dvd en blu-ray wordt er onderscheidt gemaakt tussen recordable en rew
 Als een cd recordable is kan het medium maar 1 keer geschreven worden en daarna alleen nog maar gelezen. 
 Als een cd rewritable is kan het medium meerdere keren geschreven worden. </p>
 
-<div class="gallery">
-    <a target="_blank" href="/afbeeldingen/cd.jpg">
+<div class="gallery"> <!--Het class element zorgt ervoor dat ik de afbeeldingen hieronder kan aanpassen met css. 
+Ze vallen onder een bepaalde klasse.-->
+
+    <a target="_blank" href="/afbeeldingen/cd.jpg"> <!--Target zorgt ervoor dat je de afbeelding kan vergroten door erop te klikken-->
       <img src="/afbeeldingen/cd.jpg" alt="Cd" width="600" height="400">
     </a>
     <div class="desc">Cd</div>
@@ -146,25 +172,6 @@ Als een cd rewritable is kan het medium meerdere keren geschreven worden. </p>
     </a>
     <div class="desc">Blu-ray</div>
   </div>
-
-<p><a href="https://sites.google.com/site/infcomputersystemen/soorten-geheugen/extern-geheugen/optische-opslag ">https://sites.google.com/site/infcomputersystemen/soorten-geheugen/extern-geheugen/optische-opslag </a></p>
-
-<br>
-
-<h3 style="color:dodgerblue;">Flashgeheugen</h3>
-
-<p style="color:black;">Flashgeheugen kan heel snel bestanden toevoegen en verwijderen. 
-De meest bekende vormen van flashgeheugen zijn de geheugenkaart, de USB-stick en de SSD. 
-Geheugenkaarten worden in verschillende soorten draagbare media gebruikt zoals de smartphone. 
-USB-sticks worden gebruikt om data van de ene naar de andere computer te verplaatsen. 
-SSD staat voor Solid State Drive en is de opvolger van de harde schijf. 
-SSD heeft een snellere toegangstijd, een hogere lees- en schrijfsnelheid en gebruikt geen beweegbare onderdelen meer, wat wel het geval is bij de harde schijf. 
-Computers bevatten vaak een harde schijf en een SSD. 
-Flashgeheugen bestaat uit verschillende flashcellen en werkt volledig elektrisch. </p>
-
-<a href="https://sites.google.com/site/infcomputersystemen/soorten-geheugen/extern-geheugen/flashgeheugen">
-  <img src="/afbeeldingen/ssd.jpg" alt= " Verschil Solid State Drive en harde schijf" width= "500" height="300">
-  </a>
 
 </body>
 </html>

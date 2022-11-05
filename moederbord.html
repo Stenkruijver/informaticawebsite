@@ -9,33 +9,40 @@
 <!--dit is een dubbel dropdownmenu met twee levels en twee submenu's-->
 
 <ul class="top-level-menu"> <!--het ul element maakt een lijst aan met list items (li)-->
-    <li><a href="/index.html">Home</a></li> <!--De a tag maakt de link naar een pagina aan en de href tag zegt waar de website gevonden moet worden-->
-    <li><a href="/html/3lagenmodel.html">3lagenmodel</a>
+    <li><a href="index.html">Home</a></li> <!--De a tag maakt de link naar een pagina aan en de href tag zegt waar de website gevonden moet worden-->
+    <li><a href="3lagenmodel.html">3lagenmodel</a>
         <ul class="second-level-menu">
-            <li><a href="/html/Logischelaag.html">Logische laag</a>
+            <li><a href="Logischelaag.html">Logische laag</a>
                 <ul class="submenu"> <!--het class element zorgt ervoor dat alle links die eronder vallen in die class worden toegevoegd-->
-                <li><a href="/html/operatingsystem.html">Operating system</a></li>
+                <li><a href="operatingsystem.html">Operating system</a></li>
                 </ul>
             </li> 
-            <li><a href="/html/Toepassingslaag.html">Toepassingslaag</a>
+            <li><a href="Toepassingslaag.html">Toepassingslaag</a>
                 <ul class="submenu2">
-                <li><a href="/html/apps.html">Apps</a></li>
+                <li><a href="apps.html">Apps</a></li>
                 </ul>
             </li>
-            <li><a href="/html/Fysiekelaag.html">Fysieke laag</a>
+            <li><a href="Fysiekelaag.html">Fysieke laag</a>
                 <ul class="submenu3">
-                <li><a href="/html/processor.html">Processor</a></li>
-                <li><a href="/html/geheugen.html">Geheugen</a></li>
-                <li><a href="/html/randapparatuur.html">Randapparatuur</a></li>
-                <li><a href="/html/moederbord.html">Moederbord</a></li>
+                <li><a href="processor.html">Processor</a></li>
+                <li><a href="geheugen.html">Geheugen</a></li>
+                <li><a href="randapparatuur.html">Randapparatuur</a></li>
+                <li><a href="moederbord.html">Moederbord</a></li>
             </ul>
         </li>
    </ul>
 </li>
 </ul>
 
-<br>
-<h2 style="color:black;">Moederbord</h2>
+<!--Voor de tekst maak ik gebruik van css om de kleur van de titels aan te passen --> 
+
+<br> <!-- De br tag zorgt ervoor dat de tekst onder het dropdownmenu komt te staan-->
+
+<!-- Style verzorgt de kleur van de tekst-->
+
+<div>
+<h2 style="color:black;">Moederbord</h2> <!--h2 geeft de grootte van de letters aan. H2 is groter dan h3-->
+</div> <!--De div tag zet een (block) element vast-->
 
 <p style="color:black;"> Het moederbord is een grote printplaat in je smartphone waar chips, verbindingen en aansluitpunten met andere onderdelen zitten. 
 Het moederbord is de grootste hardware-interface in een computer.
@@ -44,7 +51,9 @@ Het geheugen en de processor zitten op de verbindingen van het moederbord aanges
 Alle onderdelen moeten met het moederbord verbonden zijn om de processor te laten werken. 
 De processor bestuurt al deze onderdelen via het moederbord.</p>
 
-<a href="https://docs.google.com/document/d/1cdwG_o5Du4VX84EUEvZMDlcZ2H-46M9XKArw4leaSek/edit?usp=drivesdk">
+<!-- Met src kan de afbeeldingen gevonden worden, alt laat je een beschrijving van de afbeelding geven en width en height passen de grootte van de afbeelding aan-->
+
+<a href="https://docs.google.com/document/d/1cdwG_o5Du4VX84EUEvZMDlcZ2H-46M9XKArw4leaSek/edit?usp=drivesdk"> <!--het href element zorgt ervoor dat je op de afbeelding kan klikken om bij een website te komen-->
     <img src="/afbeeldingen/moederbord.jpg" alt= "Moederbord" width= "500" height="500">
     </a>
 
